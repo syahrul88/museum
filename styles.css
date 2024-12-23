@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animations */
+.hover-scale {
+    @apply transition-transform duration-300;
+}
+
+.hover-scale:hover {
+    @apply transform scale-105;
+} 
